@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add ts-node-dev: ^1.0.0-pre.49
+
+PATH: 
+  C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;D:\Matlab\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Symfony;C:\Program Files\swipl\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Paulius\AppData\Local\Microsoft\WindowsApps;D:\PhpStorm 2020.1.1\bin;;C:\Users\Paulius\AppData\Roaming\npm;C:\Users\Paulius\AppData\Local\Yarn\bin;C:\Users\Paulius\AppData\Roaming\Composer\vendor\bin;D:\Dependencies\GnuWin32\bin;D:\Dependencies\CodeBlocks\MinGW\bin;D:\Dependencies\mongodb\bin;
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ts-node-dev:: Invalid URI "ts-node-dev:/"
+      at Request.module.exports.Request.init (C:\Program Files (x86)\Yarn\lib\cli.js:140836:31)
+      at new Request (C:\Program Files (x86)\Yarn\lib\cli.js:140690:8)
+      at request (C:\Program Files (x86)\Yarn\lib\cli.js:137596:10)
+      at RequestManager.execute (C:\Program Files (x86)\Yarn\lib\cli.js:66148:15)
+      at RequestManager.shiftQueue (C:\Program Files (x86)\Yarn\lib\cli.js:66186:10)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:65855:13
+      at new Promise (<anonymous>)
+      at new F (C:\Program Files (x86)\Yarn\lib\cli.js:5301:28)
+      at RequestManager.request (C:\Program Files (x86)\Yarn\lib\cli.js:65853:19)
+      at NpmRegistry.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:31704:42)
+
+npm manifest: 
+  {
+    "name": "chess-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "tsnd --respawn src/app.ts",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
